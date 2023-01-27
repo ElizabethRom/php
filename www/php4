@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// define("TOKEN_KEY", "7234946"); //объявление константы
+
+// echo 'Hello World! $a' . TOKEN_KEY . "<br>" ;
+// $b = "Hello World! " . $a . "<br>";
+// echo $b;
+// // unset($a); //удаление переменной
+// echo '$_POST -' . print_r($_POST) . "<br>";//глобальная переменная
+// echo '$_REQUEST -' . print_r($_REQUEST) . "<br>";
+// echo '$_SERVER -' . print_r($_SERVER) . "<br>";
+// echo '$_SESSION -' . print_r($_SESSION) . "<br>";
+// $a="4";
+// $b= 4+(int)$a; //преобразование строк
+// echo $b
+//25/01
+// $res= array(1,2,3,4,5,6,7,8,9);
+
+// $res = array(
+// 	'0'=>array(
+// 		'ID'=>11,
+// 		'NAME'=>'DENUS',
+// 	),
+// 	'1'=>array(
+// 		'ID'=>12,
+// 		'NAME'=>'REMAn',
+// 	),
+
+// );
+
+// echo "<pre>";
+// echo print_r($res,1);
+// echo "</pre>";
+
+// echo "<pre>";
+// echo $res[5];
+// echo "</pre>";
+
+
+// $arId=[];
+// $arId = array();
+// foreach ($res as $ob => $elem) {
+// 	echo "<pre>";
+// 	echo 'Key =' . print_r($ob,1). ' - '.print_r($elem,1);
+// 	echo  "</pre>";
+
+// 	array_push($arId,$elem['ID']);
+
+// 	$arId['ID'][]= $elem['ID'];
+// 	$arId['NAME'][]= $elem['NAME'];
+// }
+
+// echo "<pre>";
+// echo print_r($arId,1);
+// echo "</pre>";
+
+
+// foreach ($res as $ob -> $value) {
+// 	
+// }
+
+// echo "<pre>";
+// echo print_r($arId,1);
+// echo "</pre>";
+// while($ob=$res->Fetch()){
+// 	array_push($arId,$ob['ID']);
+// }
+// $res= 'request';
+// $arId=[];
+// while($ob=$res->GetNext()){
+// 	array_push($arId,$ob['ID']);
+	/*
+	array(
+	'ID'=2333,
+	'~ID=2333',
+	)
+	*/
+// $number = rand(1,1000);
+
+// echo "<pre>";
+// echo print_r($_REQUEST,1);
+// echo "</pre>";
+
+// if(empty($_REQUEST)){
+// ?>
+// 	<h4>Номер заявки №<?php echo $number; ?></h4>
+
+// <?php
+
+// } else {?>
+	
+// 	<h4>Номер заявки №<?php echo $_REQUEST['id']; ?></h4>
+
+// <?php }?>
